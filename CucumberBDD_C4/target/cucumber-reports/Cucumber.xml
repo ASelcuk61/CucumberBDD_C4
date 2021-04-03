@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="23.441">
+<testcase classname="nopcommerce admin login" name="Verify valid login from admin login page" time="9.286">
+<system-out><![CDATA[Given I am on admin login page..............................................passed
+When I enter admin@yourstore.com into username field on the login page......passed
+And I enter admin into password field on the login page.....................passed
+And I click on login button on login page...................................passed
+Then I verify valid login message on sign in page...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Admin Feature" name="Verify invalid login for multiple users" time="4.404">
+<system-out><![CDATA[Given I am on admin panel page..............................................passed
+When I enter bob@gmail.com into username text fields on admin login page....passed
+And I enter test123 into password text fields on admin login page...........passed
+And I click on login button on admin login page.............................passed
+Then I verify that I used invalid credentials...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Admin Feature" name="Verify invalid login for multiple users 2" time="4.896">
+<system-out><![CDATA[Given I am on admin panel page..............................................passed
+When I enter jimil@yhaoo.com into username text fields on admin login page..passed
+And I enter 243red into password text fields on admin login page............passed
+And I click on login button on admin login page.............................passed
+Then I verify that I used invalid credentials...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Admin Feature" name="Verify invalid login for multiple users 3" time="4.636">
+<system-out><![CDATA[Given I am on admin panel page..............................................passed
+When I enter liz@gmail.com into username text fields on admin login page....passed
+And I enter 123Test into password text fields on admin login page...........passed
+And I click on login button on admin login page.............................passed
+Then I verify that I used invalid credentials...............................passed
+]]></system-out>
+</testcase>
+</testsuite>

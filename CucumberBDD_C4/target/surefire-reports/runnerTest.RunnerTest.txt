@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: runnerTest.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 0, Errors: 2, Skipped: 2, Time elapsed: 24.707 sec <<< FAILURE!
+I enter  into password text fields on admin login page(Verify invalid login for multiple users #2)  Time elapsed: 0.005 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: This step is undefined. You can implement it using the snippet(s) below:
+
+@When("I enter  into password text fields on admin login page")
+public void i_enter_into_password_text_fields_on_admin_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Verify invalid login for multiple users #2  Time elapsed: 0.121 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "I enter  into password text fields on admin login page" is undefined. You can implement it using the snippet(s) below:
+
+@When("I enter  into password text fields on admin login page")
+public void i_enter_into_password_text_fields_on_admin_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

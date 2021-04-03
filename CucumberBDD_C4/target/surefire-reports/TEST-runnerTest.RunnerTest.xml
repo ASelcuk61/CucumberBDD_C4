@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="24" failures="0" name="runnerTest.RunnerTest" time="7.351" errors="2" skipped="2">
+  <properties>
+    <property name="JOB_NAME" value="BG"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/BG/1/display/redirect?page=tests"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/bobit/.jenkins"/>
+    <property name="PATH" value="/Users/bobit/.jenkins/tools/hudson.model.JDK/bin:/usr/bin:/bin:/usr/sbin:/sbin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="8da789287aeeb60c"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="9.0.4+11"/>
+    <property name="user.name" value="bobit"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="BG"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/BG/1/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="TMPDIR" value="/var/folders/gd/17fntvbx1n3g9krpsbnm48q00000gn/T/"/>
+    <property name="sun.boot.library.path" value="/Users/bobit/.jenkins/tools/hudson.model.JDK/lib"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.version" value="9.0.4"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="BUILD_ID" value="1"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/Users/bobit/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/test/conf"/>
+    <property name="JAVA_MAIN_CLASS_63653" value="Main"/>
+    <property name="java.class.version" value="53.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="/Users/bobit/.jenkins/tools/hudson.model.JDK"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/BG/1/display/redirect"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/BG/1/display/redirect?page=artifacts"/>
+    <property name="java.vm.version" value="9.0.4+11"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/BG/display/redirect"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="JAVA_HOME" value="/Users/bobit/.jenkins/tools/hudson.model.JDK"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="bobit"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="HOME" value="/Users/bobit"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/bobit"/>
+    <property name="BUILD_TAG" value="jenkins-BG-1"/>
+    <property name="JENKINS_SERVER_COOKIE" value="8da789287aeeb60c"/>
+    <property name="XPC_SERVICE_NAME" value="homebrew.mxcl.jenkins"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="/Users/bobit/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="/Users/bobit/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/test"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/bobit/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/test /Users/bobit/.jenkins/war/WEB-INF/lib/remoting-4.5.jar /Users/bobit/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar /Users/bobit/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar 61911"/>
+    <property name="java.class.path" value="/Users/bobit/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.13.jar:/Users/bobit/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/test/boot/plexus-classworlds-2.6.0.jar:/Users/bobit/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/test/conf/logging"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PATH+JDK" value="/Users/bobit/.jenkins/tools/hudson.model.JDK/bin"/>
+    <property name="java.vm.specification.version" value="9"/>
+    <property name="M2_HOME" value="/Users/bobit/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/test"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.io.tmpdir" value="/var/folders/gd/17fntvbx1n3g9krpsbnm48q00000gn/T/"/>
+    <property name="HUDSON_HOME" value="/Users/bobit/.jenkins"/>
+    <property name="PATH+MAVEN" value="/Users/bobit/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/test/bin"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/BG/1/"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.5rBXOXV35d/Listeners"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0"/>
+    <property name="user.dir" value="/Users/bobit/IdeaProjects/CucumberBDD_C4"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/BG/"/>
+    <property name="MAVEN_HOME" value="/Users/bobit/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/test"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="1"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/bobit/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="/Users/bobit/.jenkins/workspace/BG@tmp"/>
+    <property name="WORKSPACE" value="/Users/bobit/.jenkins/workspace/BG"/>
+    <property name="maven3.interceptor.common" value="/Users/bobit/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="9"/>
+    <property name="USER" value="bobit"/>
+  </properties>
+  <testcase classname="Verify valid login from admin login page" name="I am on admin login page" time="0.032"/>
+  <testcase classname="Verify valid login from admin login page" name="I enter admin@yourstore.com into username field on the login page" time="0.119"/>
+  <testcase classname="Verify valid login from admin login page" name="I enter admin into password field on the login page" time="0.079"/>
+  <testcase classname="Verify valid login from admin login page" name="I click on login button on login page" time="2.241"/>
+  <testcase classname="Verify valid login from admin login page" name="I verify valid login message on sign in page" time="1.092"/>
+  <testcase classname="Verify valid login from admin login page" name="Verify valid login from admin login page" time="1.232"/>
+  <testcase classname="Verify invalid login for multiple users #1" name="I am on admin panel page" time="0.025"/>
+  <testcase classname="Verify invalid login for multiple users #1" name="I enter bob@gmail.com into username text fields on admin login page" time="0.106"/>
+  <testcase classname="Verify invalid login for multiple users #1" name="I enter test123 into password text fields on admin login page" time="0.08"/>
+  <testcase classname="Verify invalid login for multiple users #1" name="I click on login button on admin login page" time="0.704"/>
+  <testcase classname="Verify invalid login for multiple users #1" name="I verify that I used invalid credentials" time="0.022"/>
+  <testcase classname="Verify invalid login for multiple users #1" name="Verify invalid login for multiple users #1" time="0.193"/>
+  <testcase classname="Verify invalid login for multiple users #2" name="I am on admin panel page" time="0.032"/>
+  <testcase classname="Verify invalid login for multiple users #2" name="I enter jimil.com into username text fields on admin login page" time="0.119"/>
+  <testcase classname="Verify invalid login for multiple users #2" name="I enter  into password text fields on admin login page" time="0.005">
+    <error message="This step is undefined. You can implement it using the snippet(s) below:
+
+@When(&quot;I enter  into password text fields on admin login page&quot;)
+public void i_enter_into_password_text_fields_on_admin_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: This step is undefined. You can implement it using the snippet(s) below:
+
+@When(&quot;I enter  into password text fields on admin login page&quot;)
+public void i_enter_into_password_text_fields_on_admin_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>  When I enter jimil.com into username text fields on admin login page # stepDefinition.LoginParametersSD.enterDataUserAndPassFiled(java.lang.String,java.lang.String)
+</system-out>
+  </testcase>
+  <testcase classname="Verify invalid login for multiple users #2" name="I click on login button on admin login page" time="0">
+    <skipped/>
+    <system-out>  And I enter  into password text fields on admin login page           # null
+</system-out>
+  </testcase>
+  <testcase classname="Verify invalid login for multiple users #2" name="I verify that I used invalid credentials" time="0">
+    <skipped/>
+    <system-out>  And I click on login button on admin login page                      # stepDefinition.LoginParametersSD.clickOnButton(java.lang.String)
+</system-out>
+  </testcase>
+  <testcase classname="Verify invalid login for multiple users #2" name="Verify invalid login for multiple users #2" time="0.121">
+    <error message="The step &quot;I enter  into password text fields on admin login page&quot; is undefined. You can implement it using the snippet(s) below:
+
+@When(&quot;I enter  into password text fields on admin login page&quot;)
+public void i_enter_into_password_text_fields_on_admin_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &quot;I enter  into password text fields on admin login page&quot; is undefined. You can implement it using the snippet(s) below:
+
+@When(&quot;I enter  into password text fields on admin login page&quot;)
+public void i_enter_into_password_text_fields_on_admin_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>  Then I verify that I used invalid credentials                        # stepDefinition.LoginParametersSD.verifyInvalidLogin()
+11-04-2020 21:08:43 SharedSD.java INFO  [main] stepDefinition.SharedSD 46 - Cleanup..!
+11-04-2020 21:08:43 SharedSD.java INFO  [main] stepDefinition.SharedSD 47 - Test was completed...!
+11-04-2020 21:08:43 SharedSD.java INFO  [main] stepDefinition.SharedSD 49 - ************************
+</system-out>
+  </testcase>
+  <testcase classname="Verify invalid login for multiple users #3" name="I am on admin panel page" time="0.051"/>
+  <testcase classname="Verify invalid login for multiple users #3" name="I enter liz@gmail.com into username text fields on admin login page" time="0.131"/>
+  <testcase classname="Verify invalid login for multiple users #3" name="I enter 123Test into password text fields on admin login page" time="0.095"/>
+  <testcase classname="Verify invalid login for multiple users #3" name="I click on login button on admin login page" time="0.64"/>
+  <testcase classname="Verify invalid login for multiple users #3" name="I verify that I used invalid credentials" time="0.022"/>
+  <testcase classname="Verify invalid login for multiple users #3" name="Verify invalid login for multiple users #3" time="0.21"/>
+</testsuite>
